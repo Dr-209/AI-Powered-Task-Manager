@@ -13,7 +13,7 @@ const EmployeeManagement = () =>
                  try {
                      const res = await axios.post("http://localhost:5500/api/emp/create", 
                    
-                     { empId, empName, empSkills }) 
+                     { empId,  empName, empSkills }) 
                      console.log(res)
                      console.log("frontend")
                      setEmpId("")

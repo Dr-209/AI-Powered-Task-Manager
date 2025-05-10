@@ -1,4 +1,4 @@
-import { response } from 'express';
+
 import React, { useState } from 'react' 
 // import axios from 'axios'; 
 const TaskManagement = ({employees}) => 
@@ -8,8 +8,8 @@ const TaskManagement = ({employees}) =>
          const [assignedEmp, setAssignedEmp] = useState("");
          const[suggestions,setSuggestions]=useState([]);
          const [predictingTime,setPredictingTime]=useState(null)
+       
          //Auto-comletion suggetion API
-         
          const handleTaskSuggetion=async(e)=>{
             setTaskTitle(e.target.value);
             if(taskTitle.length>3){

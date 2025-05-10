@@ -26,6 +26,7 @@ useEffect(()=>{
   })
   .catch((error)=>{
     setError(error.message);
+    console.log("error in App, erro in fetch employee list")
   })
 },[])
 
