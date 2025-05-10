@@ -24,3 +24,5 @@ dist-ssr
 *.sw?
 
 jira-app-ai.json
+
+*.json
