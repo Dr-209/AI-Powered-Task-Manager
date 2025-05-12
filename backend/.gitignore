@@ -26,3 +26,6 @@ dist-ssr
 jira-app-ai.json
 
 *.json
+.env
+.env.local
+.env.*.local
